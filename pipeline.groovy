@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the code from the Git repository
-                git 'http://gitlab.com/username/shop-frontend.git'
+                git 'http://gitlab.com/username/shop-frontend.git'}
         }
 
         stage('Build Docker Image') {
